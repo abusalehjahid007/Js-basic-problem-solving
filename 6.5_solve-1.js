@@ -1,3 +1,5 @@
+const input = require('prompt-sync')();
+
 // question 1 solve :
 
 const check_grade = (n) => {
@@ -20,6 +22,5 @@ const check_grade = (n) => {
     }
 };
 
-const prompt = require('prompt-sync')();
-let num = Number(prompt("Enter your mark: "));
+let num = Number(input("Enter your mark: "));
 console.log(`Yor Grade: ${check_grade(num)}`)
