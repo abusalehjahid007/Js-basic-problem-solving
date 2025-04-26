@@ -1,6 +1,6 @@
 const input = require('prompt-sync')();
 
-// question 5 solve :
+// question 6 solve :
 
 const large_name = (n) => {
     let large  = n[0];
