@@ -1,0 +1,1 @@
+console.log(`Yor Grade: ${check_grade(num)}`)
